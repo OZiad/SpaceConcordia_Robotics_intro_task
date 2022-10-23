@@ -21,7 +21,7 @@ private:
     {
         auto message = std_msgs::msg::String();
         std::string sub_count = std::to_string(this->count_subscribers("topic"));
-        message.data = "Number of subscribers to this topic: " + sub_count;
+        message.data = "Number of subscribers for this topic: " + sub_count;
         if (std::stoi(sub_count) % 2 == 0 && std::stoi(sub_count) != 0)
         {
             message.data += "\nThat's an even number!";
