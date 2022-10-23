@@ -1,0 +1,90 @@
+[0.011s] Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omar/repos/Robotics_intro_task/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/home/omar/repos/Robotics_intro_task/install/cpp_pub
+[0.102s] -- The C compiler identification is GNU 11.2.0
+[0.180s] -- The CXX compiler identification is GNU 11.2.0
+[0.189s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.319s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.324s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.538s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.588s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.601s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.695s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.698s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.777s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.797s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.832s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.969s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.033s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.033s] -- Configured cppcheck include dirs: 
+[1.033s] -- Configured cppcheck exclude dirs and/or files: 
+[1.034s] -- Added test 'lint_cmake' to check CMake code style
+[1.035s] -- Added test 'uncrustify' to check C / C++ code style
+[1.035s] -- Configured uncrustify additional arguments: 
+[1.036s] -- Added test 'xmllint' to check XML markup files
+[1.037s] -- Configuring done
+[1.046s] -- Generating done
+[1.047s] -- Build files have been written to: /home/omar/repos/Robotics_intro_task/build/cpp_pub
+[1.054s] Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omar/repos/Robotics_intro_task/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/home/omar/repos/Robotics_intro_task/install/cpp_pub
+[1.055s] Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[1.089s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[2.999s] [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::callback_function()[m[K’:
+[2.999s] [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:24:78:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.999s]    24 |         message.data = "Number of subscribers to this topic: '%d'", sub_count[01;35m[K;[m[K
+[3.000s]       |                                                                              [01;35m[K^[m[K
+[3.000s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.000s]                  from [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:5[m[K:
+[3.001s] [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:33:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.001s]    33 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"message '%i'"[m[K, [32m[Kcount_++[m[K);
+[3.001s]       |                                         [01;35m[K^~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[3.001s]       |                                                               [32m[K|[m[K
+[3.001s]       |                                                               [32m[Ksize_t {aka long unsigned int}[m[K
+[3.001s] [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:33:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.001s]    33 |         RCLCPP_INFO(this->get_logger(), "message '[01;36m[K%i[m[K'", count_++);
+[3.001s]       |                                                   [01;36m[K~^[m[K
+[3.001s]       |                                                    [01;36m[K|[m[K
+[3.001s]       |                                                    [01;36m[Kint[m[K
+[3.001s]       |                                                   [32m[K%li[m[K
+[4.602s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.776s] [100%] Built target talker
+[4.784s] Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[4.807s] Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub
+[4.812s] -- Install configuration: ""
+[4.813s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker
+[4.814s] -- Set runtime path of "/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker" to ""
+[4.814s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+[4.814s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.sh
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.dsv
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.bash
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.sh
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.zsh
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.dsv
+[4.815s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv
+[4.816s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+[4.816s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+[4.816s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+[4.816s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.xml
+[4.818s] Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub

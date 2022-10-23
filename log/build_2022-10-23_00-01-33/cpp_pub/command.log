@@ -1,0 +1,6 @@
+Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omar/repos/Robotics_intro_task/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/home/omar/repos/Robotics_intro_task/install/cpp_pub
+Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omar/repos/Robotics_intro_task/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/home/omar/repos/Robotics_intro_task/install/cpp_pub
+Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub
+Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub

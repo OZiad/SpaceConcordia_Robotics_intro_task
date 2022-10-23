@@ -1,0 +1,2 @@
+Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8

@@ -1,0 +1,16 @@
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.sh
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.dsv
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.bash
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.sh
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.zsh
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.dsv
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.xml

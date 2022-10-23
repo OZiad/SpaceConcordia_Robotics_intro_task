@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[2.049s] [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::callback_function()[m[K’:
+[2.049s] [01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:23:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kint[m[K’ in initialization
+[2.049s]    23 |         int sub_count = [01;31m[Kstd::to_string(this->count_subscribers("topic"))[m[K;
+[2.049s]       |                         [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.049s]       |                                       [01;31m[K|[m[K
+[2.049s]       |                                       [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[2.714s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[2.714s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[2.714s] gmake: *** [Makefile:146: all] Error 2
+[2.716s] Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8

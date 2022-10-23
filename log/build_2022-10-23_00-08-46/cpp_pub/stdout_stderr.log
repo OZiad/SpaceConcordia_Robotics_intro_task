@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::callback_function()[m[K’:
+[01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:24:78:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   24 |         message.data = "Number of subscribers to this topic: '%i'", sub_count[01;35m[K;[m[K
+      |                                                                              [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker
+-- Set runtime path of "/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker" to ""
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.sh
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.dsv
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.bash
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.sh
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.zsh
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.dsv
+-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.xml

@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (-) JobUnselected: {'identifier': 'py_sub'}
+[0.000334] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.000856] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.009393] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.009879] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'build'}
+[0.010446] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omar/repos/Robotics_intro_task/build/cpp_pub', '--', '-j8', '-l8'], 'cwd': '/home/omar/repos/Robotics_intro_task/build/cpp_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'omar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omar'), ('OLDPWD', '/home/omar/repos/Robotics_intro_task/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omar-Swift-SF314-57:@/tmp/.ICE-unix/1990,unix/omar-Swift-SF314-57:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4469385e_aa9f_43c8_81ac_8af4ceccd961'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IZXLU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omar/repos/Robotics_intro_task/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032612] (cpp_pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099772] (-) TimerEvent: {}
+[0.160101] (cpp_pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.185139] (cpp_pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.187077] (cpp_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.191912] (cpp_pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199852] (-) TimerEvent: {}
+[0.200872] (cpp_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.212948] (cpp_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.262260] (cpp_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.263293] (cpp_pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300019] (-) TimerEvent: {}
+[0.358302] (cpp_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400169] (-) TimerEvent: {}
+[0.481540] (cpp_pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500285] (-) TimerEvent: {}
+[0.537253] (cpp_pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.537473] (cpp_pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.537607] (cpp_pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.537872] (cpp_pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.538407] (cpp_pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.538492] (cpp_pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.538656] (cpp_pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.539240] (cpp_pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.547546] (cpp_pub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.549081] (cpp_pub) StdoutLine: {'line': b'-- Build files have been written to: /home/omar/repos/Robotics_intro_task/build/cpp_pub\n'}
+[0.567659] (cpp_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.580782] (cpp_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.600414] (-) TimerEvent: {}
+[0.700929] (-) TimerEvent: {}
+[0.801362] (-) TimerEvent: {}
+[0.901802] (-) TimerEvent: {}
+[1.002235] (-) TimerEvent: {}
+[1.102723] (-) TimerEvent: {}
+[1.203071] (-) TimerEvent: {}
+[1.303405] (-) TimerEvent: {}
+[1.403845] (-) TimerEvent: {}
+[1.504255] (-) TimerEvent: {}
+[1.604659] (-) TimerEvent: {}
+[1.705090] (-) TimerEvent: {}
+[1.805528] (-) TimerEvent: {}
+[1.905973] (-) TimerEvent: {}
+[2.006438] (-) TimerEvent: {}
+[2.106851] (-) TimerEvent: {}
+[2.207184] (-) TimerEvent: {}
+[2.307646] (-) TimerEvent: {}
+[2.408062] (-) TimerEvent: {}
+[2.508351] (-) TimerEvent: {}
+[2.608667] (-) TimerEvent: {}
+[2.708974] (-) TimerEvent: {}
+[2.809324] (-) TimerEvent: {}
+[2.909650] (-) TimerEvent: {}
+[3.009987] (-) TimerEvent: {}
+[3.110343] (-) TimerEvent: {}
+[3.210716] (-) TimerEvent: {}
+[3.311038] (-) TimerEvent: {}
+[3.411404] (-) TimerEvent: {}
+[3.511782] (-) TimerEvent: {}
+[3.612076] (-) TimerEvent: {}
+[3.712495] (-) TimerEvent: {}
+[3.812864] (-) TimerEvent: {}
+[3.913170] (-) TimerEvent: {}
+[4.013561] (-) TimerEvent: {}
+[4.113926] (-) TimerEvent: {}
+[4.214237] (-) TimerEvent: {}
+[4.219061] (cpp_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.314387] (-) TimerEvent: {}
+[4.377894] (cpp_pub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[4.387206] (cpp_pub) CommandEnded: {'returncode': 0}
+[4.404842] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'install'}
+[4.411720] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omar/repos/Robotics_intro_task/build/cpp_pub'], 'cwd': '/home/omar/repos/Robotics_intro_task/build/cpp_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'omar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omar'), ('OLDPWD', '/home/omar/repos/Robotics_intro_task/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omar-Swift-SF314-57:@/tmp/.ICE-unix/1990,unix/omar-Swift-SF314-57:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4469385e_aa9f_43c8_81ac_8af4ceccd961'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IZXLU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omar/repos/Robotics_intro_task/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.414473] (-) TimerEvent: {}
+[4.417818] (cpp_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.417987] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker\n'}
+[4.419086] (cpp_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker" to ""\n'}
+[4.419195] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub\n'}
+[4.419250] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub\n'}
+[4.419331] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh\n'}
+[4.419382] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv\n'}
+[4.419459] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.sh\n'}
+[4.419543] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.dsv\n'}
+[4.419596] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.bash\n'}
+[4.419660] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.sh\n'}
+[4.419731] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.zsh\n'}
+[4.419816] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.dsv\n'}
+[4.419867] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv\n'}
+[4.419918] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub\n'}
+[4.419985] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake\n'}
+[4.420039] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake\n'}
+[4.420091] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.xml\n'}
+[4.421250] (cpp_pub) CommandEnded: {'returncode': 0}
+[4.457660] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 0}
+[4.458211] (-) EventReactorShutdown: {}

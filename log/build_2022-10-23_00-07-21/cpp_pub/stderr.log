@@ -1,0 +1,4 @@
+[01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid Publisher::callback_function()[m[K’:
+[01m[K/home/omar/repos/Robotics_intro_task/src/cpp_pub/src/publisher.cpp:24:78:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   24 |         message.data = "Number of subscribers to this topic: '%d'", sub_count[01;35m[K;[m[K
+      |                                                                              [01;35m[K^[m[K
