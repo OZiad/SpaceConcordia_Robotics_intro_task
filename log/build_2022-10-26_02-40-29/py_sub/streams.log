@@ -1,0 +1,22 @@
+[0.666s] Invoking command in '/home/omar/repos/Robotics_intro_task/src/py_sub': PYTHONPATH=/home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/omar/repos/Robotics_intro_task/build/py_sub/build install --prefix /home/omar/repos/Robotics_intro_task/install/py_sub --record /home/omar/repos/Robotics_intro_task/build/py_sub/install.log --single-version-externally-managed
+[0.926s] running egg_info
+[0.928s] writing ../../build/py_sub/py_sub.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../../build/py_sub/py_sub.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../../build/py_sub/py_sub.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../build/py_sub/py_sub.egg-info/requires.txt
+[0.929s] writing top-level names to ../../build/py_sub/py_sub.egg-info/top_level.txt
+[0.931s] reading manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.933s] running build_py
+[0.933s] running install
+[0.934s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.934s]   warnings.warn(
+[0.935s] running install_lib
+[0.937s] running install_data
+[0.938s] running install_egg_info
+[0.941s] removing '/home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages/py_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.943s] Copying ../../build/py_sub/py_sub.egg-info to /home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages/py_sub-0.0.0-py3.10.egg-info
+[0.944s] running install_scripts
+[0.970s] writing list of installed files to '/home/omar/repos/Robotics_intro_task/build/py_sub/install.log'
+[1.000s] Invoked command in '/home/omar/repos/Robotics_intro_task/src/py_sub' returned '0': PYTHONPATH=/home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/omar/repos/Robotics_intro_task/build/py_sub/build install --prefix /home/omar/repos/Robotics_intro_task/install/py_sub --record /home/omar/repos/Robotics_intro_task/build/py_sub/install.log --single-version-externally-managed

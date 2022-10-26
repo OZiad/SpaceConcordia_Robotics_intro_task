@@ -9,10 +9,10 @@ using namespace std::chrono_literals;
 class Publisher : public rclcpp::Node
 {
 public:
-    Publisher() : Node("publisher")
+    Publisher() : Node("publisher"), time_{0}
     {
         // Assign publisher object to pub_ shared pointer
-        pub_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+        pub_ = this->create_publisher<std_msgs::msg::String>("topic", 50);
         timer_ = this->create_wall_timer(1s, std::bind(&Publisher::callback_function, this));
     }
 
@@ -20,30 +20,22 @@ private:
     void callback_function()
     {
         auto message = std_msgs::msg::String();
-        std::string sub_count = std::to_string(this->count_subscribers("topic"));
-        message.data = "Number of subscribers for this topic: " + sub_count;
-        if (std::stoi(sub_count) % 2 == 0 && std::stoi(sub_count) != 0)
-        {
-            message.data += "\nThat's an even number!";
-        }
-        else if (std::stoi(sub_count) % 2 != 0 && std::stoi(sub_count) != 0)
-        {
-            message.data += "\nThat's an odd number!";
-        }
-        else
-        {
-            message.data += "\nThat's a neutral number!";
-        }
+        double position = (time_ * time_) + (2 * time_); // position function t^2+2t
+        message.data = "Current time: " + std::to_string(time_) + "   Current Position: " + std::to_string(position);
         RCLCPP_INFO(this->get_logger(), "publishing: '%s'", message.data.c_str());
+        time_++; // increment time by 1
         pub_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_;
+    int time_;
+
 };
 
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<Publisher>());
+    rclcpp::shutdown();
     return 0;
 }

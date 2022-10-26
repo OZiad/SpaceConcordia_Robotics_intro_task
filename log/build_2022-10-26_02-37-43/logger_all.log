@@ -1,0 +1,190 @@
+[0.447s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.447s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f93bd12ae00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f93bd2efd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f93bd2efd90>>)
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.485s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/omar/repos/Robotics_intro_task'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ros'
+[0.515s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pub' with type 'ros.ament_cmake' and name 'cpp_pub'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_sub' with type 'ros.ament_python' and name 'py_sub'
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.548s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.552s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/omar/repos/Robotics_intro_task/build/cpp_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/omar/repos/Robotics_intro_task/install/cpp_pub', 'merge_install': False, 'path': '/home/omar/repos/Robotics_intro_task/src/cpp_pub', 'symlink_install': False, 'test_result_base': None}
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_target' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.638s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.638s] DEBUG:colcon.colcon_core.verb:Building package 'py_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/omar/repos/Robotics_intro_task/build/py_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/omar/repos/Robotics_intro_task/install/py_sub', 'merge_install': False, 'path': '/home/omar/repos/Robotics_intro_task/src/py_sub', 'symlink_install': False, 'test_result_base': None}
+[0.639s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/omar/repos/Robotics_intro_task/src/cpp_pub' with build type 'ament_cmake'
+[0.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/omar/repos/Robotics_intro_task/src/cpp_pub'
+[0.649s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.653s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/omar/repos/Robotics_intro_task/src/py_sub' with build type 'ament_python'
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_sub', 'ament_prefix_path')
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/hook/ament_prefix_path.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/hook/ament_prefix_path.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/hook/ament_prefix_path.sh'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[0.950s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/omar/repos/Robotics_intro_task/src/py_sub'
+[0.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omar/repos/Robotics_intro_task/src/py_sub': PYTHONPATH=/home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/omar/repos/Robotics_intro_task/build/py_sub/build install --prefix /home/omar/repos/Robotics_intro_task/install/py_sub --record /home/omar/repos/Robotics_intro_task/build/py_sub/install.log --single-version-externally-managed
+[1.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omar/repos/Robotics_intro_task/src/py_sub' returned '0': PYTHONPATH=/home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/omar/repos/Robotics_intro_task/build/py_sub/build install --prefix /home/omar/repos/Robotics_intro_task/install/py_sub --record /home/omar/repos/Robotics_intro_task/build/py_sub/install.log --single-version-externally-managed
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub' for CMake module files
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub' for CMake config files
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub/lib'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub/bin'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub/lib/pkgconfig/py_sub.pc'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub/lib/python3.10/site-packages'
+[1.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_sub', 'pythonpath')
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/hook/pythonpath.ps1'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/hook/pythonpath.dsv'
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/hook/pythonpath.sh'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/py_sub/bin'
+[1.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_sub)
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/package.ps1'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/package.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/package.sh'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/package.bash'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/py_sub/share/py_sub/package.zsh'
+[1.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omar/repos/Robotics_intro_task/install/py_sub/share/colcon-core/packages/py_sub)
+[5.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[5.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub
+[5.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[5.553s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub' for CMake module files
+[5.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub' for CMake config files
+[5.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[5.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[5.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[5.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/bin'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/python3.10/site-packages'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/bin'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.ps1'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.sh'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.bash'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.zsh'
+[5.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[5.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub' for CMake module files
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub' for CMake config files
+[5.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[5.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[5.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[5.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/bin'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/python3.10/site-packages'
+[5.584s] Level 1:colcon.colcon_core.environment:checking '/home/omar/repos/Robotics_intro_task/install/cpp_pub/bin'
+[5.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.ps1'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.sh'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.bash'
+[5.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.zsh'
+[5.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omar/repos/Robotics_intro_task/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[5.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.588s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.604s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.642s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omar/repos/Robotics_intro_task/install/local_setup.ps1'
+[5.646s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omar/repos/Robotics_intro_task/install/_local_setup_util_ps1.py'
+[5.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omar/repos/Robotics_intro_task/install/setup.ps1'
+[5.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omar/repos/Robotics_intro_task/install/local_setup.sh'
+[5.650s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omar/repos/Robotics_intro_task/install/_local_setup_util_sh.py'
+[5.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omar/repos/Robotics_intro_task/install/setup.sh'
+[5.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omar/repos/Robotics_intro_task/install/local_setup.bash'
+[5.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omar/repos/Robotics_intro_task/install/setup.bash'
+[5.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omar/repos/Robotics_intro_task/install/local_setup.zsh'
+[5.655s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omar/repos/Robotics_intro_task/install/setup.zsh'

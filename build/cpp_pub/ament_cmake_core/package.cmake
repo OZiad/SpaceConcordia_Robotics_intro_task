@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "cpp_pub")
 set(cpp_pub_VERSION "0.0.0")
-set(cpp_pub_MAINTAINER "omar <omar.ziad1@outlook.com>")
+set(cpp_pub_MAINTAINER "Omar Ziad <omar.ziad1@outlook.com>")
 set(cpp_pub_BUILD_DEPENDS "rclcpp" "std_msgs")
 set(cpp_pub_BUILDTOOL_DEPENDS "ament_cmake")
 set(cpp_pub_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")
