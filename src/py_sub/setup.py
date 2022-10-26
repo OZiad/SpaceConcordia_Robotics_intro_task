@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='omar',
+    maintainer='Omar Ziad',
     maintainer_email='omar.ziad1@outlook.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Subscriber Node that calculates velocity and acceleration using position and time',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                'listener = py_sub.subscriber:main',
         ],
-    },
+},
 )

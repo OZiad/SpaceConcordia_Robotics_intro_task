@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[0.059s] [100%] Built target talker
+[0.246s] Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omar/repos/Robotics_intro_task/build/cpp_pub -- -j8 -l8
+[0.270s] Invoking command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub
+[0.276s] -- Install configuration: ""
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/lib/cpp_pub/talker
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.sh
+[0.276s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/environment/path.dsv
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.bash
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.sh
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.zsh
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/local_setup.dsv
+[0.277s] -- Installing: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.dsv
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+[0.277s] -- Up-to-date: /home/omar/repos/Robotics_intro_task/install/cpp_pub/share/cpp_pub/package.xml
+[0.279s] Invoked command in '/home/omar/repos/Robotics_intro_task/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omar/repos/Robotics_intro_task/build/cpp_pub

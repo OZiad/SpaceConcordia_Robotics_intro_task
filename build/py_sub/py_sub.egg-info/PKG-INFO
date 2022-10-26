@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: py-sub
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Subscriber Node that calculates velocity and acceleration using position and time
 Home-page: UNKNOWN
-Maintainer: omar
+Maintainer: Omar Ziad
 Maintainer-email: omar.ziad1@outlook.com
-License: TODO: License declaration
+License: Apache License 2.0
 Platform: UNKNOWN
 
 UNKNOWN

@@ -3,7 +3,7 @@
 <package format="3">
   <name>py_sub</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Subscriber Node that calculates velocity and acceleration using position and time</description>
   <maintainer email="omar.ziad1@outlook.com">Omar Ziad</maintainer>
   <license>Apache License 2.0</license>
   <exec_depend>rclpy</exec_depend>
