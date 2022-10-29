@@ -19,7 +19,7 @@ public:
 private:
     void callback_function()
     {
-        auto message = std_msgs::msg::String();
+        std_msgs::msg::String message = std_msgs::msg::String();
         double position = (time_ * time_) + (2 * time_); // position function t^2+2t
         message.data = "Current time: " + std::to_string(time_) + "   Current Position: " + std::to_string(position);
         RCLCPP_INFO(this->get_logger(), "publishing: '%s'", message.data.c_str());
@@ -29,7 +29,6 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_;
     int time_;
-
 };
 
 int main(int argc, char *argv[])

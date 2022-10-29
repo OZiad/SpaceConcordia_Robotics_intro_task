@@ -3,7 +3,7 @@
 <package format="3">
   <name>cpp_pub</name>
   <version>0.0.0</version>
-  <description>Publisher Node that publishes number of subscribers to its topic</description>
+  <description>Publisher Node that publishes time and position to its topic</description>
   <maintainer email="omar.ziad1@outlook.com">Omar Ziad</maintainer>
   <license>Apache License 2.0</license>
   <depend>rclcpp</depend>
